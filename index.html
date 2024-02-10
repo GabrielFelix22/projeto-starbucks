@@ -9,14 +9,14 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Starbucks</title>
   </head>
 
   <body>
     <div class="circulo"></div>
 
-    <img src="./_imagens/logo.png" alt="logo starbucks" class="logo" />
+    <img src="./assets/logo.png" alt="logo starbucks" class="logo" />
 
     <div class="conteudo">
       <div class="caixa-texto">
@@ -30,13 +30,13 @@
         <button>Saiba mais</button>
       </div>
       <div class="caixa-imagem">
-        <img src="./_imagens/img1.png" alt="copo starbucks" class="starbucks" />
+        <img src="./assets/img1.png" alt="copo starbucks" class="starbucks" />
       </div>
     </div>
     <div class="menu">
-      <img src="./_imagens/img-pequena1.png" class="copo-pequeno verde" />
-      <img src="./_imagens/img-pequena2.png" class="copo-pequeno amarelo" />
-      <img src="./_imagens/img-pequena3.png" class="copo-pequeno rosa" />
+      <img src="./assets/img-pequena1.png" class="copo-pequeno verde" />
+      <img src="./assets/img-pequena2.png" class="copo-pequeno amarelo" />
+      <img src="./assets/img-pequena3.png" class="copo-pequeno rosa" />
     </div>
 
     <p>© Copyright, Starbucks</p>
@@ -49,17 +49,17 @@
     let rosa = document.querySelector(".rosa");
 
     verde.addEventListener("click", () => {
-      imgCopo.src = "./_imagens/img1.png";
+      imgCopo.src = "./assets/img1.png";
       circulo.style.background = "#017143";
     });
 
     amarelo.addEventListener("click", () => {
-      imgCopo.src = "./_imagens/img2.png";
+      imgCopo.src = "./assets/img2.png";
       circulo.style.background = "#eb7495";
     });
 
     rosa.addEventListener("click", () => {
-      imgCopo.src = "./_imagens/img3.png";
+      imgCopo.src = "./assets/img3.png";
       circulo.style.background = "#d752b1";
     });
   </script>
