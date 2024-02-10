@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%;        /* Largura */
+    display: flex;
+    justify-content: space-between;         /* Justifica/alinha o conteudo na horizontal, criando um espaço de tudo que está dentro dessa caixa */
+    align-items: center;                    /* Justifica/alinha os itens na vertical, baixo e cima */
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #017143;          /* cor de fundo */
+    color: #ffffff;                     /* cor do texto */
+    border: none;                          /* borda, deixar ou tirar a borda */
+    padding: 10px;                      /* aumento interno do botão */
+    border-radius: 20px;                /* arredonda a borda */
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;         /* muda a cor quando passo mouse por cima */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 70px;  /* Tamanho da fonte */
+    font-weight: 500px;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.starbucks {
+    width: 340px;
+    z-index: 2;
+}
+
+.copo-pequeno {
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-35px);
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+}
+
+
